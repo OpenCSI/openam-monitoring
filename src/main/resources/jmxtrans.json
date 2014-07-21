@@ -55,31 +55,31 @@
       ]
     },
     {
-      "obj": "SUN_OPENSSO_SERVER_MIB_SsoServerInstance:name=com.sun.identity.monitoring.SsoServerAuthSvc",
-      "attr": [
+      "objectName": "SUN_OPENSSO_SERVER_MIB_SsoServerInstance:name=com.sun.identity.monitoring.SsoServerAuthSvc",
+      "resultAlias": "openam.authentication"
+      "attributes": [
         "AuthenticationFailureCount",
         "AuthenticationSuccessCount"
       ],
-      "resultAlias": "openam.authentication"
     },
     {
-      "obj": "SUN_OPENSSO_SERVER_MIB_SsoServerInstance:name=com.sun.identity.monitoring.SsoServerSessSvc",
-      "attr": [
+      "objectName": "SUN_OPENSSO_SERVER_MIB_SsoServerInstance:name=com.sun.identity.monitoring.SsoServerSessSvc",
+      "resultAlias": "openam.sessions"
+      "attributes": [
         "SessionActiveCount",
         "SessionCreatedCount"
       ],
-      "resultAlias": "openam.sessions"
     },
     {
-      "obj": "SUN_OPENSSO_SERVER_MIB_SsoServerInstance:name=com.sun.identity.monitoring.SsoServerIdRepoSvc",
-      "attr": [
+      "objectName": "SUN_OPENSSO_SERVER_MIB_SsoServerInstance:name=com.sun.identity.monitoring.SsoServerIdRepoSvc",
+      "resultAlias": "openam.idrepo"
+      "attributes": [
         "IdRepoCacheEntries",
         "IdRepoCacheHits",
         "IdRepoGetRqts",
         "IdRepoSearchCacheHits",
         "IdRepoSearchRqts"
       ],
-      "resultAlias": "openam.idrepo"
     }
   ],
   "outputWriters": [
