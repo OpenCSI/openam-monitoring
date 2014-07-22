@@ -8,6 +8,23 @@
     <name>openam-monitoring</name>
     <url>http://maven.apache.org</url>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>OpenCSI</id>
+            <name>Internal releases</name>
+            <url>https://ci.opencsi.com/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>OpenCSI</id>
+            <name>Internal snapshots</name>
+            <url>https://ci.opencsi.com/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
