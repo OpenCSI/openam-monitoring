@@ -25,3 +25,10 @@ If needed, you can disable graphite appender with ```-Dgraphite.enabled=false```
 ## Console appender
 
 To enable console appender (mainly for debug purposes), add ```-Dconsole.enabled=true``` to ```CATALINA_OPTS```. On Tomcat, logs will appears in ```catalina.log```. 
+
+# Integration
+
+[Grafana dashboard](https://github.com/OpenCSI/openam-monitoring/raw/master/src/site/screenshot.png)
+
+## Grafana
+
