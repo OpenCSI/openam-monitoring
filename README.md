@@ -28,7 +28,7 @@ To enable console appender (mainly for debug purposes), add ```-Dconsole.enabled
 
 # Integration
 
-[Grafana dashboard](https://github.com/OpenCSI/openam-monitoring/raw/master/src/site/screenshot.png)
+![Grafana dashboard](https://github.com/OpenCSI/openam-monitoring/raw/master/src/site/screenshot.png)
 
 ## Grafana
 
