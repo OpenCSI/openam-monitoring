@@ -32,3 +32,4 @@ To enable console appender (mainly for debug purposes), add ```-Dconsole.enabled
 
 ## Grafana
 
+Import the [dashboard](https://raw.githubusercontent.com/OpenCSI/openam-monitoring/master/src/site/grafana-openam-dashboard.json) into your kibana and adjust data to match your server or edit the file to replace ```jmx.sso``` by the correct prefix, like ```java.server```.
